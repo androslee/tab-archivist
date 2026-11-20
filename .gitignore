@@ -1,0 +1,21 @@
+# Local dependencies and builds
+node_modules/
+dist/
+build/
+coverage/
+web-ext-artifacts/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Local browsing data and exports
+.local-data/
+*.local.json
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
